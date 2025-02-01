@@ -1,0 +1,21 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-black flex flex-col justify-between items-center text-white p-8">
+      <h1 className="text-4xl font-bold text-center mt-20">Hello New People</h1>
+      
+      <div className="w-full max-w-4xl mt-auto">
+        <h2 className="text-2xl font-semibold text-center mb-4">FAQ</h2>
+        <div className="space-y-4">
+          <div className="p-4 bg-blue-600 rounded-lg">
+            <h3 className="font-bold">What is this website about?</h3>
+            <p>This website is a simple homepage built with React and Next.js.</p>
+          </div>
+          <div className="p-4 bg-red-600 rounded-lg">
+            <h3 className="font-bold">How can I contact support?</h3>
+            <p>You can reach out via our contact form or email us directly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
